@@ -1,0 +1,78 @@
+.Home
+{
+    background-image: url(./images/hero-bg.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 100vh;
+  
+   
+    
+    position: sticky;
+}
+
+.collegeImg
+{
+    width: 250px;
+   
+}
+.collegeImg img{
+   width: 100%;
+}
+.HomeContainer
+{
+    display: flex;
+    position: relative;
+    top:130px;
+    justify-content:space-around;
+    align-items: center;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    
+}
+.tnpHeading
+{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+.CollegeName
+{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: rgb(1, 41, 112);
+
+}
+/* .CollegeNameHindi
+{
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+} */
+/* .CompletePage
+{
+    background-color: #f6f9ff;
+} */
+
+@media only screen and (max-width: 1000px)
+{
+    .tnpHeading
+    {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .CollegeName
+    {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,55 @@
+.pastRecruiterContainer
+{
+    position: relative;
+    top:70px;
+    z-index: 2;
+    padding-bottom: 30px !important;
+}
+.slick-slide{
+    padding: 30px !important;
+}
+
+.PastRecruiterSlider
+{
+    height: 200px;
+    display: flex;
+    overflow:scroll;
+    scroll-behavior: smooth;
+   
+
+    /* animation: scroll 2s linear infinite; */
+    /* animation-delay: 300s; */
+    touch-action: pan-right;
+}
+/* .pastRecruiterContainer ::-webkit-scrollbar-button
+{
+    display: none;
+} */
+.slideItem:active .pastRecruiterContainer
+{
+    transform: translate(-190px);
+}
+
+.slideItem
+{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 160px;
+    min-width: 160px;
+    background-color: black;
+    touch-action: pan-right;
+    
+}
+
+@keyframes scroll
+{
+    0%
+    {
+        transform :translate(0);
+    }
+    100%
+    {
+        transform: translate(calc(-160px *1));
+    }
+}

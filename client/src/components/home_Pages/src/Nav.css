@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.navBar {
+  width: 100vw;
+  display: flex;
+
+  position: fixed;
+  height: 70px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navContainer {
+  display: flex;
+  height: 100%;
+  margin-top: auto;
+}
+.navList {
+  display: flex;
+  height: 100%;
+}
+.navBar img {
+  width: 60px;
+}
+.logoContainer {
+  margin: 7px 10% 7px 5%;
+  height: 100%;
+}
+.dropDownList {
+  position: absolute;
+  top: 70px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.dropDownItem {
+  background-color: white;
+  min-width: 150px;
+  padding-left: 10px;
+  padding-right: 20px;
+  z-index: 998;
+  transition: all 3s ease;
+  display: none;
+  line-height: 40px;
+}
+.favIcon {
+  font-size: 14px;
+}
+.listItem {
+  height: 100%;
+
+  margin: 0px 4px 0px 4px;
+
+  transition: all 1s ease;
+}
+.listItem > a:hover {
+  background-color: rgb(209, 215, 220);
+}
+
+.dropDownItem:hover {
+  background-color: rgb(209, 215, 220);
+}
+
+.listItem:hover .dropDownItem {
+  display: block;
+}
+.listItem > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 7px 25px;
+  text-align: center;
+  /* font-family: 'Cormorant SC', serif; */
+  font-family: sans-serif;
+  /* font-size: 1.3rem; */
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  margin: 17px 0px 20px 0px;
+
+  border: 1px solid hidden;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.hambergerIcon {
+  margin: auto;
+  visibility: hidden;
+}
+
+.hambergerIcon .svg-inline--fa {
+  height: 1.5em;
+}
+.dropDownList a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 1036px) {
+  .navBar {
+    flex-direction: column;
+
+    line-height: 40px;
+    z-index: 1000;
+  }
+  .navContainer {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: fixed;
+    top: 69px;
+    width: 40%;
+    left: -120%;
+    transition: all 1s ease-in-out;
+  }
+  .navList {
+    flex-direction: column;
+    padding-left: 20px;
+    position: relative;
+
+    max-height: 200vh;
+    height: auto;
+
+    background-color: #fff;
+    z-index: 999;
+
+    overflow: visible;
+  }
+  .active {
+    left: 0;
+  }
+  .dropDownList {
+    position: relative;
+    top: 0px;
+  }
+  .listItem {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 60px;
+  }
+  .listItem > a {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    min-width: 250px;
+    padding: 7px 30px 7px 10px;
+    text-align: left;
+  }
+  li .favIcon {
+    float: right;
+    padding-top: 12px;
+  }
+  .dropDownList {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    max-height: 100vh;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    visibility: hidden;
+  }
+  .dropDownItem {
+    margin: 5px 10px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: all 1s ease;
+  }
+  .listItem:hover .dropDownList {
+    visibility: visible;
+  }
+
+  .listItem:hover {
+    height: auto;
+  }
+
+  .logoContainer {
+    position: fixed;
+    right: 3px;
+  }
+  .hambergerIcon {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    visibility: visible;
+    cursor: pointer;
+  }
+}

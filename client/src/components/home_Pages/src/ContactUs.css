@@ -1,0 +1,62 @@
+.aboutContentHead
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: unset !important;
+    
+  
+    
+}
+.contactContent
+{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.aboutContentHead .svg-inline--fa
+{
+    padding-right: 8px;
+}
+
+.addressDesc .svg-inline--fa
+{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.addressDesc
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.mapLocation
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    /* margin-bottom: 15px; */
+}
+
+@media only screen and (max-width: 1178px){
+
+    .address, .contactInfo
+    {
+        padding-top: 20px;
+    }
+    
+    
+}

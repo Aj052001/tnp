@@ -1,0 +1,28 @@
+.varifierDashboard {
+    display: block;
+    margin-top: 90px;
+    width: 100%;
+    margin-left: 275px;
+}
+
+table {
+  border: 1px solid var(--borderColor);
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+  border-radius: 0.5rem;
+  width: 80%;
+}
+
+th {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 21px;
+  text-align: center;
+}
+.viewDetails a {
+  text-decoration: none;
+  color: black;
+}

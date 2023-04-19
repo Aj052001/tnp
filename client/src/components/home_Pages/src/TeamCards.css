@@ -1,0 +1,93 @@
+.CardContainer
+{
+    /* position: relative;
+    top:70px;
+    left: 70px; */
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.2);
+    border: 1px solid hidden;
+    border-radius: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+    
+}
+.memberDetails
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+    line-height: 30px;
+    background-color: #012970;
+text-align: center;
+transition:all 1s ease;
+}
+
+.memberImage img{
+    height: 250px;
+    width: 250px;
+    border:1px solid hidden;
+    border-radius:0.35rem ;
+}
+.MemberPosition,.memberName
+{
+    
+    font-weight: bold;
+}
+.memberContact .svg-inline--fa
+{
+    padding-right: 0.7rem;
+}
+.memberImage
+{
+    align-self: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.memberContact
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    align-self: center;
+}
+.memberName
+{
+    text-align: center;
+}
+
+.memberSocialMediaLinks
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    
+}
+.memberSocialMediaLinks .svg-inline--fa
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 9px 9px 9px 9px;
+    border: 1px solid hidden;
+    border-radius: 50%;
+    background-color: grey;
+    transition: all 1s ease;
+}
+
+.memberSocialMediaLinks .svg-inline--fa:hover
+{
+    background-color: #007aff;
+    color: white;
+
+}
+
+.membercontactNo, .memberMail
+{
+    font-size: 0.9rem !important;
+}

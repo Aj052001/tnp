@@ -1,0 +1,162 @@
+.companyCard
+{
+    background-color: #fff !important;
+   width: 200px;
+   height: 205px;
+   box-shadow:4px 4px 4px 4px rgba(0,0,0,.1), 0px 2px 2px 0px rgba(0,0,0,.1);
+   border: 1px solid hidden;
+   border-radius: 15px;
+   background-image: url('./images/google-logo-9822.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: all 0.4s;
+   cursor: pointer;
+  
+}
+.card1
+{
+    background-image: url('./images/google-logo-9822.png') !important;
+}
+.card2
+{
+    background-image: url('./images/goldman.png') !important;
+}
+.card3
+{
+    background-image: url('./images/amazon.png');
+}
+.card4{
+    background-image: url('./images/DE_Shaw.png');
+
+}
+.card5
+{
+    background-image: url('./images/Jio-Logo.jpg');
+
+}
+.card6{
+    background-image: url('./images/publicis.jpg');
+}
+.card7{
+    background-image: url('./images/capgemini.png');
+
+}
+.card8{
+    background-image: url('./images/microsoft_NXa7dje.jpeg');
+
+}
+.card9{
+    background-image: url('./images/medianet.jpg');
+}
+.companyCard h1{
+    text-align: center;
+}
+.sliderContainer
+{
+    /* position: relative;
+    top:100px; */
+    overflow: hidden;
+    background-color: #f6f9ff;
+}
+.my-slider
+{
+   /* margin-top: 30px; */
+    margin-bottom: 50px;
+    margin-left: 3%;
+    overflow: hidden;
+   
+  
+    
+    
+}
+.SliderHeading
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.slick-slide div
+{
+ 
+    width: 200px;
+   height: 205px;
+    /* width: 200px; */
+    margin-left: .5rem;
+    margin-right: .5rem;
+   align-self: center;
+   transition: all 1s;
+ 
+    
+}
+.slick-slide div:hover
+{
+    transition: .4s;
+     transform: scale(1.08);
+}
+
+/* .slick-slider{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.slick-list
+{
+    /* margin-top: 37px; */
+    /* margin-bottom: 37px; */
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+}
+.SliderHeading hr
+{
+   
+    width: 50%;
+    
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 710px)
+{
+    .my-slider
+    {
+        margin-left: 10%;
+        /* margin-right: 5%; */
+    }
+}
+@media only screen and (max-width: 521px)
+{
+    .my-slider
+    {
+        margin-left: 27%;
+        /* margin-right: 5%; */
+    }
+}
+
+@media only screen and (max-width: 430px)
+{
+    .my-slider
+    {
+        /* padding-left: 10%; */
+        /* margin-right: 5%; */
+        margin-left: 15%;
+    }
+    .companyCard
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .slick-slide div
+    {
+        width: 250px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,63 @@
+.placementBranchWiseBar {
+  width: 55%;
+  height: 65vh;
+  align-self: center;
+  margin-top: 80px;
+}
+.placementDetailsContainer {
+  margin-top: 30px;
+   background-color: white;
+  padding: 30px 25px 30px 25px;
+  border: 1px solid hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.placementDetails {
+  line-height: 3rem;
+}
+.PlacementStatTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.PlacementStatTable td,
+.PlacementStatTable th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* .PlacementStatTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.PlacementStatTable tr:hover {
+  background-color: #ddd;
+} */
+
+.PlacementStatTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: rgb(11 54 131 / 91%); */
+  
+}
+@media only screen and (max-width: 1200px){
+    .placementBranchWiseBar
+    {
+      width: 75%;
+      height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .placementDetails {
+        line-height: 1.5rem;
+      }
+     
+}

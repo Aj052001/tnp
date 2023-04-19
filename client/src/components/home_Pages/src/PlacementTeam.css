@@ -1,0 +1,30 @@
+.teamcontainer
+{
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding-top: 30px;
+    
+    
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    row-gap: 2em;
+    /* column-gap: 1em; */
+}
+
+@media only screen and (max-width: 1250px)
+{
+    .teamcontainer
+    {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 830px)
+{
+    .teamcontainer
+    {
+        grid-template-columns: auto;
+    }
+}

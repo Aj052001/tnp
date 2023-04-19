@@ -1,0 +1,203 @@
+.studentLoginPage{
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+#whole {
+    background-color:blueviolet;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    background-color:#66B3FF;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+#welcome {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    height: 20px;
+    margin: 40px;
+}
+
+#slogan {
+    font-family: 'Lato', sans-serif;
+    width: 20rem;
+    font-size: 3rem;
+    color: white;
+    margin: 40px;
+}
+
+#backgroundimage {
+    background-color: #66B3FF;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hbars {
+    background-color: 66B3FF;
+    width: 100%;
+    height: 10%;
+}
+
+#horizontal {
+    background-color: #0F7AE5;
+    width: 100%;
+    height: 100%;
+    align-self: start;
+    position: relative;
+    top: 90px;
+}
+
+#vbars {
+    background-color: #66B3FF;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#small {
+    background-color: #3490E2;
+    width: 10%;
+    height: 10%;  
+}
+
+#medium {
+    background-color: #3490E2;
+    width: 15%;
+    height: 20%;
+}
+
+#big {
+    background-color: #3490E2;
+    width: 20%;
+    height: 50%; 
+}
+
+#large {
+    background-color: #0F7AE5;
+    width: 25%;
+    height: 100%;
+}
+
+
+#container {
+    background-color:white;
+    width: 1205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color: #2916AF;
+    height: 20px;
+    margin: 40px;
+    margin-top: 150px;
+}
+
+#portal {
+    background-color:white;
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#role {
+    width: 45em;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#forms {
+    margin-top: 20px;
+    width: 80%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    max-height: 60%;
+}
+
+.loginContent li{
+    list-style-type: none;
+}
+
+.loginContent {
+    border-bottom : 2px solid rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-grow: 1; 
+    justify-content: space-around;
+    align-items: center;
+
+} 
+
+.loginContent a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #667ACC;
+}
+
+.loginContent a:hover {
+    color: #667ACC;
+    color: black;
+}
+
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    width: 35em;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+#signin {
+    align-self: center;
+    background-color: rgb(206,204,204,.5);
+    color: black;
+    padding: 5px 40px;
+    border: 1px solid var(--borderColor);
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+
+#signin:hover {
+    background-color: rgb(206,204,204,1);
+} 
